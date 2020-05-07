@@ -81,14 +81,12 @@
 		DA85E4452464B02C002A6971 /* iConvert */ = {
 			isa = PBXGroup;
 			children = (
+				DA85E46B2464B062002A6971 /* Resources */,
+				DA85E46C2464B091002A6971 /* DataLayer */,
+				DA85E46D2464B099002A6971 /* ViewLayer */,
 				DA85E4462464B02C002A6971 /* AppDelegate.swift */,
 				DA85E4482464B02C002A6971 /* SceneDelegate.swift */,
-				DA85E44D2464B02C002A6971 /* ContentView.swift */,
-				DA85E44F2464B02C002A6971 /* Assets.xcassets */,
-				DA85E4542464B02C002A6971 /* LaunchScreen.storyboard */,
 				DA85E4572464B02C002A6971 /* Info.plist */,
-				DA85E44A2464B02C002A6971 /* iConvert.xcdatamodeld */,
-				DA85E4512464B02C002A6971 /* Preview Content */,
 			);
 			path = iConvert;
 			sourceTree = "<group>";
@@ -108,6 +106,32 @@
 				DA85E4622464B02C002A6971 /* Info.plist */,
 			);
 			path = iConvertTests;
+			sourceTree = "<group>";
+		};
+		DA85E46B2464B062002A6971 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA85E4512464B02C002A6971 /* Preview Content */,
+				DA85E44F2464B02C002A6971 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DA85E46C2464B091002A6971 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				DA85E44A2464B02C002A6971 /* iConvert.xcdatamodeld */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		DA85E46D2464B099002A6971 /* ViewLayer */ = {
+			isa = PBXGroup;
+			children = (
+				DA85E44D2464B02C002A6971 /* ContentView.swift */,
+				DA85E4542464B02C002A6971 /* LaunchScreen.storyboard */,
+			);
+			path = ViewLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,7 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"iConvert/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iConvert/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iConvert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -386,7 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"iConvert/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iConvert/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iConvert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
